@@ -61,5 +61,10 @@ safer-repopick 264101 -P frameworks/base/
 safer-repopick 264102 -P lineage-sdk/
 safer-repopick 264103 -P packages/apps/LineageParts/
 
+# Added policy based firewall in the security tab.
+repopick 265237 -P frameworks/base/
+repopick 265238 -P packages/apps/LineageParts/
+repopick 265239 -P packages/apps/Settings
+
 # Longshot
 ${LOCAL_MANIFEST}/current.pick.git.sh
