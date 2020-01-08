@@ -20,7 +20,5 @@ safer-repopick() {
     fi
 }
 
-safer-repopick -t P_asb_2019-12 -e 265142,265143,265144,265145,265279
-safer-repopick 265142 -P frameworks/av/
-safer-repopick 265143 265144 265145 -P frameworks/base/
-safer-repopick 265279 -P build/make/
+safer-repopick -t P_asb_2020-01 -e 266592,266593,266594
+safer-repopick 266592 266593 266594 -P frameworks/base/
