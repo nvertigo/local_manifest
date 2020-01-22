@@ -69,5 +69,10 @@ safer-repopick 265239 -P packages/apps/Settings
 # f2fs-tools: fsck/fsck.c: fix typo.
 safer-repopick 265766
 
+# Reimplement per-app performance profiles
+safer-repopick 267357 -P lineage-sdk/
+safer-repopick 267443 -P packages/apps/LineageParts/
+safer-repopick 267444 -P frameworks/base/
+
 # Longshot
 ${LOCAL_MANIFEST}/current.pick.git.sh
