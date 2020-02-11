@@ -74,5 +74,8 @@ safer-repopick 267357 -P lineage-sdk/
 safer-repopick 267443 -P packages/apps/LineageParts/
 safer-repopick 267444 -P frameworks/base/
 
+# Refactor AUDIO_BECOMING_NOISY broadcast handling
+safer-repopick 268138 -P packages/apps/Eleven/
+
 # Longshot
 ${LOCAL_MANIFEST}/current.pick.git.sh
