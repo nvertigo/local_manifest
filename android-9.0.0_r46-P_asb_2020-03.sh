@@ -20,6 +20,5 @@ safer-repopick() {
     fi
 }
 
-safer-repopick -t P_asb_2020-02 -e 268163,268164,268165,268166,268167,268168,268176
-safer-repopick 268163 268164 268165 268166 268167 268168 -P frameworks/base/
-safer-repopick 268176 -P packages/apps/Settings
+safer-repopick -t P_asb_2020-03 -e 270111,270112,270113,270114
+safer-repopick 270111 270112 270113 270114 -P frameworks/base/
