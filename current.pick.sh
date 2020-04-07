@@ -70,9 +70,9 @@ safer-repopick 265239 -P packages/apps/Settings
 safer-repopick 265766
 
 # Reimplement per-app performance profiles
-safer-repopick 267357 -P lineage-sdk/
-safer-repopick 267443 -P packages/apps/LineageParts/
-safer-repopick 267444 -P frameworks/base/
+safer-repopick 267357 -P lineage-sdk/ -f
+safer-repopick 267443 -P packages/apps/LineageParts/ -f
+safer-repopick 267444 -P frameworks/base/ -f
 
 # Refactor AUDIO_BECOMING_NOISY broadcast handling
 safer-repopick 268138 -P packages/apps/Eleven/
