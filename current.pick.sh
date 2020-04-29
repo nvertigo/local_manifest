@@ -77,8 +77,5 @@ safer-repopick 267444 -P frameworks/base/ -f
 # Refactor AUDIO_BECOMING_NOISY broadcast handling
 safer-repopick 268138 -P packages/apps/Eleven/
 
-# webview_80.0.3987.162
-safer-repopick -t webview_80.0.3987.162
-
 # Longshot
 ${LOCAL_MANIFEST}/current.pick.git.sh
