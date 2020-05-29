@@ -31,6 +31,9 @@
   <remove-project name="LineageOS/android_device_lineage_sepolicy" />
   <project path="device/lineage/sepolicy" name="nvertigo/android_device_lineage_sepolicy" revision="nlos-16.0" />
 
+  <remove-project name="LineageOS/android_external_chromium-webview" />
+  <project path="external/chromium-webview" name="nvertigo/android_external_chromium-webview" remote="bitbucket" revision="master" />
+
   <remove-project name="LineageOS/android_hardware_qcom_power" />
   <project path="hardware/qcom/power" name="nvertigo/android_hardware_qcom_power" revision="nlos-16.0" />
 
