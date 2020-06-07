@@ -20,7 +20,4 @@ safer-repopick() {
     fi
 }
 
-safer-repopick -t P_asb_2020-05 -e 275016,275017,275019,275020,275021,275022,275023,275024,275025,275027
-safer-repopick 275016 275017 -P frameworks/av/
-safer-repopick 275019 275020 275021 275022 275023 275024 275025 -P frameworks/base/
-safer-repopick 275027 -P packages/apps/Settings
+safer-repopick 277443 -P build/make/
