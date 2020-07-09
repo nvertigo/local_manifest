@@ -20,4 +20,5 @@ safer-repopick() {
     fi
 }
 
-safer-repopick 277443 -P build/make/
+safer-repopick -t P_asb_2020-07 -e 280656
+safer-repopick 280656 -P android/
