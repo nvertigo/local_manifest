@@ -30,16 +30,16 @@ safer-repopick 219760 -P system/nfc/
 safer-repopick -t pie-msim-ringtones -e 233633,233634,237209 -f
 safer-repopick 233633 -P frameworks/base/ -f
 safer-repopick 233634 -P packages/apps/Settings/ -f
-safer-repopick 237209 -P vendor/lineage/
+safer-repopick 237209 -P vendor/lineage/ -f
 
 # p-display-shrink
-safer-repopick 231827 -P frameworks/base/
-safer-repopick 231847 -P frameworks/base/
-safer-repopick 231848 -P frameworks/base/
-safer-repopick 231851 -P frameworks/base/
-safer-repopick 231852 -P frameworks/base/
+safer-repopick 231827 -P frameworks/base/ -f
+safer-repopick 231847 -P frameworks/base/ -f
+safer-repopick 231848 -P frameworks/base/ -f
+safer-repopick 231851 -P frameworks/base/ -f
+safer-repopick 231852 -P frameworks/base/ -f
 safer-repopick 237500 -P packages/apps/Settings
-safer-repopick 231828
+safer-repopick 231828 -f
 
 # pie-onehandmode-tile
 safer-repopick 251522 -P frameworks/base/
