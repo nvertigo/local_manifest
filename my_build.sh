@@ -23,6 +23,10 @@ export LANGUAGE=C
 
 # set up the environment (variables and functions)
 unset JAVAC
+
+# use prebuilt python-2.7 instead of system python
+export PATH=/usr/local/src/los16/prebuilts/python/linux-x86/2.7.18/bin:$PATH
+
 source build/envsetup.sh
 
 # clean the out dir; comment out, if you want to do
