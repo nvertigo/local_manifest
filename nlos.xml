@@ -73,4 +73,8 @@
 
   <project path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_6.0/prebuilt/linux-x86_64" name="nvertigo/llvm-Snapdragon_LLVM_for_Android" remote="github" revision="6.0.9" />
 
+<!-- add full-featured python 2.7 -->
+
+  <project path="prebuilts/python/linux-x86/2.7.18" name="nvertigo/prebuilts_python_2.7.18" remote="github" revision="master" />
+
 </manifest>
