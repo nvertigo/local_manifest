@@ -23,9 +23,6 @@ safer-repopick() {
 # Sounds: Squashed cleanup of sound files
 safer-repopick 236765 -P frameworks/base -f
 
-# SDCLANG-6: fix declaration
-safer-repopick 219760 -P system/nfc/
-
 # pie-msim-ringtones
 safer-repopick -t pie-msim-ringtones -e 233633,233634,237209 -f
 safer-repopick 233633 -P frameworks/base/ -f
