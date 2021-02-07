@@ -5,6 +5,9 @@ LOCAL_MANIFEST=my_tmp/local_manifest
 
 export BUILD_ROOT LOCAL_MANIFEST
 
+# use prebuilt python-2.7 instead of system python
+export PATH=/usr/local/src/los16/prebuilts/python/linux-x86/2.7.18/bin:$PATH
+
 cd ${BUILD_ROOT}
 
 source build/envsetup.sh
