@@ -23,8 +23,8 @@ safer-repopick() {
     fi
 }
 
-safer-repopick -t P_asb_2021-02 -e 303324,303328,303329,303330,303331,303332,303336,303337,303338,303628,303629
-safer-repopick 303324 -P android/
-safer-repopick -c 30 303328 303329 303330 303331 303332 303628 -P frameworks/base/
-safer-repopick 303336 303337 303338 -P packages/apps/Settings
-safer-repopick 303629 -P build/make/
+safer-repopick -t P_asb_2021-03 -e 304997,304998,304999,305006,305009
+safer-repopick 304997 -P android/
+safer-repopick 304998 304999 -P art/
+safer-repopick -c 30 305006 -P frameworks/base/
+safer-repopick 305009 -P build/make/
